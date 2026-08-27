@@ -8,7 +8,7 @@ import { WHATSAPP_URL } from "@/lib/data";
 
 export const FinalCTA: React.FC = () => {
   return (
-    <Section variant="dark" className="relative border-t border-white/5 py-24 overflow-hidden">
+    <Section id="contato" variant="dark" className="relative border-t border-white/5 py-24 overflow-hidden">
       {/* Background radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-[radial-gradient(circle,rgba(242,101,34,0.15)_0%,transparent_70%)] pointer-events-none blur-3xl" />
 

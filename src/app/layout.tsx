@@ -55,6 +55,11 @@ export const metadata: Metadata = {
       "Acelere o crescimento do seu negócio com marketing digital estratégico e focado em resultados reais.",
     images: ["/logos/m30-logo.png"],
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   robots: {
     index: true,
     follow: true,

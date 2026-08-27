@@ -18,6 +18,7 @@ export const M30Ecosystem: React.FC = () => {
 
   return (
     <Section id="ecossistema" variant="deep" className="border-t border-white/5 relative overflow-hidden">
+      <div id="solucoes" className="scroll-mt-24" />
       {/* Background glow sutil */}
       <div className="absolute top-1/3 right-0 w-[500px] h-[500px] bg-[radial-gradient(circle,rgba(242,101,34,0.10)_0%,transparent_70%)] pointer-events-none" />
 

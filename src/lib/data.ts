@@ -116,6 +116,120 @@ export const ECOSYSTEM_PILLARS: EcosystemPillar[] = [
   },
 ];
 
+// Dados dos Slides do Carrossel do Hero
+export interface HeroSlide {
+  id: string;
+  number: string;
+  tag: string;
+  eyebrow: string;
+  headline: string;
+  highlight: string;
+  subheadline: string;
+  primaryCta: {
+    text: string;
+    href: string;
+    isExternal?: boolean;
+  };
+  secondaryCta?: {
+    text: string;
+    href: string;
+  };
+  microcopy?: string;
+  glowStyle: "m30" | "assessoria" | "videos" | "trafego" | "beeia" | "consultoria";
+}
+
+export const HERO_SLIDES: HeroSlide[] = [
+  {
+    id: "m30",
+    number: "01",
+    tag: "M30 • MARKETING & CRESCIMENTO",
+    eyebrow: "ESTRUTURA DE MARKETING & CRESCIMENTO",
+    headline: "VOCÊ NÃO PRECISA FAZER MARKETING.",
+    highlight: "SUA EMPRESA PRECISA.",
+    subheadline: "Sua empresa precisa aparecer, comunicar, anunciar, atender e vender. Mas não precisa ser você fazendo tudo isso.",
+    primaryCta: {
+      text: "Quero tirar o marketing das minhas costas",
+      href: "#contato",
+    },
+    secondaryCta: {
+      text: "Conhecer as soluções",
+      href: "#solucoes",
+    },
+    microcopy: "Marketing profissional sem depender do seu tempo.",
+    glowStyle: "m30",
+  },
+  {
+    id: "assessoria",
+    number: "02",
+    tag: "01 • ESTRATÉGIA",
+    eyebrow: "01 • DIREÇÃO",
+    headline: "VOCÊ NÃO PRECISA DE MAIS IDEIAS.",
+    highlight: "PRECISA SABER O QUE FAZER.",
+    subheadline: "Planejamento, direção estratégica e acompanhamento para sua equipe executar com clareza.",
+    primaryCta: {
+      text: "Conhecer Assessoria",
+      href: "/solucoes/assessoria",
+    },
+    glowStyle: "assessoria",
+  },
+  {
+    id: "videos",
+    number: "03",
+    tag: "02 • AUTORIDADE",
+    eyebrow: "02 • CONTEÚDO",
+    headline: "SUA EMPRESA PRECISA APARECER.",
+    highlight: "VOCÊ NÃO PRECISA VIRAR O LOUCO DO CONTEÚDO.",
+    subheadline: "Transformamos o conhecimento da sua empresa em conteúdo planejado, gravado e produzido pela M30.",
+    primaryCta: {
+      text: "Conhecer Vídeos",
+      href: "/solucoes/videos",
+    },
+    glowStyle: "videos",
+  },
+  {
+    id: "trafego",
+    number: "04",
+    tag: "03 • AQUISIÇÃO",
+    eyebrow: "03 • DISTRIBUIÇÃO",
+    headline: "NÃO BASTA CRIAR CONTEÚDO.",
+    highlight: "ELE PRECISA CHEGAR ÀS PESSOAS CERTAS.",
+    subheadline: "Distribuição estratégica para gerar atenção, oportunidades e alimentar o seu processo comercial.",
+    primaryCta: {
+      text: "Conhecer Tráfego Pago",
+      href: "/solucoes/trafego-pago",
+    },
+    glowStyle: "trafego",
+  },
+  {
+    id: "beeia",
+    number: "05",
+    tag: "04 • AUTOMAÇÃO",
+    eyebrow: "04 • ATENDIMENTO",
+    headline: "SEU PRÓXIMO COLABORADOR",
+    highlight: "PODE NÃO SER HUMANO.",
+    subheadline: "Conheça a BeeIA, o Agente Digital da M30 para atender, qualificar e acompanhar oportunidades 24/7.",
+    primaryCta: {
+      text: "Conhecer BeeIA",
+      href: "/solucoes/beeia",
+    },
+    glowStyle: "beeia",
+  },
+  {
+    id: "consultoria",
+    number: "06",
+    tag: "05 • ESCALA",
+    eyebrow: "05 • CRESCIMENTO",
+    headline: "MARKETING NÃO É O OBJETIVO.",
+    highlight: "CRESCIMENTO É.",
+    subheadline: "Entramos na operação para encontrar gargalos, organizar prioridades e construir o próximo ciclo de crescimento.",
+    primaryCta: {
+      text: "Conhecer Consultoria",
+      href: "/solucoes/consultoria-in-loco",
+    },
+    glowStyle: "consultoria",
+  },
+];
+
 // Planos de Serviços de Conteúdo e Assessoria
 export const CONTENT_SERVICES = {
   assessoria: {

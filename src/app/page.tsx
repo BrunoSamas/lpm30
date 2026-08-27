@@ -2,14 +2,14 @@ import React from "react";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
-import { Hero } from "@/components/sections/Hero";
+import { HeroSolutionsCarousel } from "@/components/sections/HeroSolutionsCarousel";
 import { MarketingChecklist } from "@/components/sections/MarketingChecklist";
 import { OwnerProblem } from "@/components/sections/OwnerProblem";
 import { TimeCostCalculator } from "@/components/sections/TimeCostCalculator";
 import { OpportunityCost } from "@/components/sections/OpportunityCost";
 import { M30Ecosystem } from "@/components/sections/M30Ecosystem";
-import { ContentPlans } from "@/components/sections/ContentPlans";
-import { GrowthTools } from "@/components/sections/GrowthTools";
+// import { ContentPlans } from "@/components/sections/ContentPlans";
+// import { GrowthTools } from "@/components/sections/GrowthTools";
 import { GrowthConsulting } from "@/components/sections/GrowthConsulting";
 import { FinalManifesto } from "@/components/sections/FinalManifesto";
 import { FinalCTA } from "@/components/sections/FinalCTA";
@@ -21,8 +21,8 @@ export default function Home() {
       <Header />
 
       <main>
-        {/* 02 - Hero Dobra Principal */}
-        <Hero />
+        {/* 02 - Hero Dobra Principal (Carrossel de Posicionamento M30) */}
+        <HeroSolutionsCarousel />
 
         {/* 03 - Quem faz o marketing? Checklist Provocativo */}
         <MarketingChecklist />
@@ -40,10 +40,10 @@ export default function Home() {
         <M30Ecosystem />
 
         {/* 08 - Escolha o que você não quer mais fazer (Serviços e Vídeos) */}
-        <ContentPlans />
+        {/* <ContentPlans /> */}
 
         {/* 09 - Aquisição e Automação (Tráfego Pago & BeeIA) */}
-        <GrowthTools />
+        {/* <GrowthTools /> */}
 
         {/* 10 - Oferta Principal (Consultoria de Crescimento) */}
         <GrowthConsulting />
